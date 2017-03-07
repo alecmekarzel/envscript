@@ -43,7 +43,7 @@ As you can see, we have a few simple `scripts` which run `envscript <command>`. 
 
 You might also notice that there's two ways of defining an `envscript`.
 
-There's the magical one you're not used to seeing:
+There's the magical way you're not used to seeing:
 
 ```json
 "start": {
@@ -56,14 +56,10 @@ There's the magical one you're not used to seeing:
 }
 ```
 
-And then there's the traditional one that you'd use for any normal script:
+And then there's the traditional way that you'd use for any normal script:
 
 ```json
-{
-	"envscripts": {
-		"test": "mocha"
-	}
-}
+"test": "mocha"
 ```
 
 We think these are both pretty intuitive and readable.
