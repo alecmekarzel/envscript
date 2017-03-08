@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { spawn } = require('child_process')
 
 // in this case, script is the object passed to an envscript
