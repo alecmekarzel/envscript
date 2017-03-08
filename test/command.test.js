@@ -1,10 +1,11 @@
-const expectedValues = [
-	'development',
-	'db://username:password@localhost:3000/development'
-]
+const { expect } = require('chai')
 
-if (process.env.NODE_ENV !== expectedValues[0] || process.env.DATABASE_URI !== expectedValues[1]) {
-	throw new Error('ERROR: it doesn\'t look like we recieved any environment variables.')
-} else {
-	console.log('WOOP WOOP! All tests passed.')
-}
+describe('envscript()', function() {
+	it('sets environment variable NODE_ENV', function() {
+		expect(process.env.NODE_ENV).to.equal('development')
+	})
+
+	it('sets environment variable DATABASE_URI', function() {
+		expect(process.env.DATABASE_URI).to.equal('db://username:password@localhost:3000/development')
+	})
+})
