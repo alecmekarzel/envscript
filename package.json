@@ -1,32 +1,28 @@
 {
-  "name": "envscript",
-  "version": "1.0.0",
-  "description": "Define environment variables on a per script basis in your package.json.",
-  "author": "Alec Mekarzel <alec@worklovegrow.com>",
-  "private": true,
-  "engines": {
-    "node": ">= 6.0.0"
-  },
-  "bin": {
-    "envscript": "./src/index.js"
-  },
-  "scripts": {
-    "test": "node src/command.js test"
-  },
-  "envscripts": {
-    "test": {
-      "run": "printenv",
-      "env": {
-        "NODE_ENV": "development",
-        "MONGO_URL": "localhost:3000"
-      }
-    }
-  },
-  "dependencies": {
-    "commander": "^2.9.0"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5"
-  }
+	"name": "envscript",
+	"version": "1.0.0",
+	"description": "Define environment variables on a per script basis in your package.json.",
+	"author": "Alec Mekarzel <alec@worklovegrow.com>",
+	"private": true,
+	"engines": {
+		"node": ">= 6.0.0"
+	},
+	"bin": {
+		"envscript": "./src/command.js"
+	},
+	"scripts": {
+		"test": "node src/command.js test"
+	},
+	"envscripts": {
+		"test": {
+			"run": "printenv",
+			"env": {
+				"NODE_ENV": "development",
+				"MONGO_URL": "localhost:3000"
+			}
+		}
+	},
+	"dependencies": {
+		"commander": "^2.9.0"
+	}
 }

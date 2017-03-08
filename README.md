@@ -1,6 +1,6 @@
 # envscript
 
-Quickly set environment variables to be used for commands via `package.json`.
+Define environment variables on a per script basis in your package.json.
 
 ## Installation
 ```bash
