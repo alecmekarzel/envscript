@@ -66,8 +66,6 @@ We think these are both pretty intuitive and readable.
 
 ## Testing
 
-Yes, your eyes haven't fooled you: there is no tests folder. We run a pretty basic test (because that's all we need) inside of our `package.json`.
-
 Simply run `npm test` or `yarn test` (depending on your package manager) and the tests for this package will be run.
 
 ## Issues

@@ -15,10 +15,10 @@
 	},
 	"envscripts": {
 		"test": {
-			"run": "printenv",
+			"run": "node test/command.test.js",
 			"env": {
 				"NODE_ENV": "development",
-				"MONGO_URL": "localhost:3000"
+				"DATABASE_URI": "db://username:password@localhost:3000/development"
 			}
 		}
 	},
