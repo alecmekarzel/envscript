@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Define environment variables on a per script basis in your package.json.",
 	"author": "Alec Mekarzel <alec@worklovegrow.com>",
-	"private": true,
+	"license": "MIT",
 	"engines": {
 		"node": ">= 6.0.0"
 	},
