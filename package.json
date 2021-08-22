@@ -1,5 +1,5 @@
 {
-	"name": "envscript",
+	"name": "@alecmekarzel/envscript",
 	"author": "Alec Mekarzel",
 	"description": "Define environment variables on a per script basis in your package.json.",
 	"version": "1.0.0",
