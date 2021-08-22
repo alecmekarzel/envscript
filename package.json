@@ -1,9 +1,12 @@
 {
 	"name": "envscript",
-	"version": "1.0.0",
+	"author": "Alec Mekarzel",
 	"description": "Define environment variables on a per script basis in your package.json.",
-	"author": "Alec Mekarzel <alec@worklovegrow.com>",
-	"license": "MIT",
+	"version": "1.0.0",
+	"repository": "git://github.com/alecmekarzel/envscript.git",
+	"publishConfig": {
+		"registry":"https://npm.pkg.github.com"
+	},
 	"engines": {
 		"node": ">= 6.0.0"
 	},
