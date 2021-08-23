@@ -2,7 +2,7 @@
 	"name": "@alecmekarzel/envscript",
 	"author": "Alec Mekarzel",
 	"description": "Define environment variables on a per script basis in your package.json.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"repository": "git://github.com/alecmekarzel/envscript.git",
 	"publishConfig": {
 		"registry":"https://npm.pkg.github.com"

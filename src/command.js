@@ -2,7 +2,7 @@
 
 const path = require('path')
 const envscript = require('./index')
-const program = require('commander')
+const { program } = require('commander')
 const package = require('../package.json')
 
 const userPackagePath = path.join(process.cwd(), 'package.json')
