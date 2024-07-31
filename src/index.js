@@ -27,12 +27,10 @@ module.exports = function envscript(script) {
 	}
 
 	// run the new command in a shell with our options and our new environment variable
-	spawn(sh, [
-		shFlag, command
-	], {
+	spawn(sh, [shFlag, command], {
 		env,
-		stdio: 'inherit'
-	}).on('close', function(code) {
+		stdio: 'inherit',
+	}).on('close', function (code) {
 		process.exit(code)
 	})
 }

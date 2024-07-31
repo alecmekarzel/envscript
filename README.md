@@ -1,3 +1,23 @@
+```
+███████████████████████████████████████████████████████████
+```
+
+```
+ █████  ██████   ██████ ██   ██ ██ ██    ██ ███████ ██████  
+██   ██ ██   ██ ██      ██   ██ ██ ██    ██ ██      ██   ██ 
+███████ ██████  ██      ███████ ██ ██    ██ █████   ██   ██ 
+██   ██ ██   ██ ██      ██   ██ ██  ██  ██  ██      ██   ██ 
+██   ██ ██   ██  ██████ ██   ██ ██   ████   ███████ ██████  
+```
+
+> *This project was built over seven years ago as a quick-use utility and fun project not meant for production purposes. It has since been archived.*
+>
+> *However, feel free to peruse, fork, modify, and so forth!*
+
+```
+███████████████████████████████████████████████████████████
+```
+
 # envscript
 
 Define environment variables on a per script basis in your package.json.
